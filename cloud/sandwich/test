@@ -1,0 +1,24 @@
+| Layers | 
+Cmp Size Command
+    7.8MB FROM c5a7f980a2bbcee
+    37 B #(nop) COPY file:170d7224687a0d18845da9d2252af9f67c3570d1cd2bdaf5c1863102244d05d5
+    0 B   rm /data.txt
+
+
+| Layer Details | 
+Tags: (unaviable)
+Id: f11fe5f7b145b95542e8576fad66a3024ea7498bd3c3a798e589a31338b294f2
+Digest: sha256:a7d58e15a9c634b91cacd1bc8f33c6bca3c171452fd0352d54eec9ac062b2712
+Command:
+#(nop) COPY file:170d7224687a0d18845da9d2252af9f67c3570d1cd2bdaf5c1863102244d05d5 in /data.txt
+
+
+
+| Image Details | 
+
+Image name: f5bed82cd72c
+Total Image size: 7.8 MB
+Potential wasted space: 37 B 
+Image efficiency score: 99 %
+Count   Total Space  Path 
+2          37 B  /data.txt

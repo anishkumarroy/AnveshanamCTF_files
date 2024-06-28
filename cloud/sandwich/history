@@ -1,0 +1,5 @@
+IMAGE          CREATED       CREATED BY                                      SIZE      COMMENT
+f5bed82cd72c   2 weeks ago   /bin/sh -c rm /data.txt                         0B        
+<missing>      2 weeks ago   /bin/sh -c #(nop) COPY file:170d7224687a0d18…   37B       
+<missing>      4 weeks ago   /bin/sh -c #(nop)  CMD ["/bin/sh"]              0B        
+<missing>      4 weeks ago   /bin/sh -c #(nop) ADD file:e3abcdba177145039…   7.79MB    

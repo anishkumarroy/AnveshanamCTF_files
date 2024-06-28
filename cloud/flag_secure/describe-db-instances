@@ -1,0 +1,218 @@
+{
+    "DBInstances": [
+        {
+            "DBInstanceIdentifier": "database-1-instance-1-ap-south-1a",
+            "DBInstanceClass": "db.r6g.2xlarge",
+            "Engine": "aurora-postgresql",
+            "DBInstanceStatus": "stopped",
+            "AutomaticRestartTime": "2024-06-24T11:36:59.305Z",
+            "MasterUsername": "postgres",
+            "Endpoint": {
+                "Address": "database-1-instance-1-ap-south-1a.c7qy8wk8akwv.ap-south-1.rds.amazonaws.com",
+                "Port": 5432,
+                "HostedZoneId": "Z2VFMSZA74J7XZ"
+            },
+            "AllocatedStorage": 1,
+            "InstanceCreateTime": "2024-06-14T10:40:12.426Z",
+            "PreferredBackupWindow": "21:16-21:46",
+            "BackupRetentionPeriod": 7,
+            "DBSecurityGroups": [],
+            "VpcSecurityGroups": [
+                {
+                    "VpcSecurityGroupId": "sg-004cc44dc8acf0d8c",
+                    "Status": "active"
+                }
+            ],
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "default.aurora-postgresql15",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "AvailabilityZone": "ap-south-1a",
+            "DBSubnetGroup": {
+                "DBSubnetGroupName": "default-vpc-06652a3453f25fcc4",
+                "DBSubnetGroupDescription": "Created from the RDS Management Console",
+                "VpcId": "vpc-06652a3453f25fcc4",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetIdentifier": "subnet-0046670045d553376",
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-south-1c"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-019910f0b1d816c4b",
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-south-1b"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-0eed83b5944b58b42",
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-south-1a"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    }
+                ]
+            },
+            "PreferredMaintenanceWindow": "fri:10:11-fri:10:41",
+            "PendingModifiedValues": {},
+            "MultiAZ": false,
+            "EngineVersion": "15.4",
+            "AutoMinorVersionUpgrade": true,
+            "ReadReplicaDBInstanceIdentifiers": [],
+            "LicenseModel": "postgresql-license",
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:aurora-postgresql-15",
+                    "Status": "in-sync"
+                }
+            ],
+            "PubliclyAccessible": true,
+            "StorageType": "aurora",
+            "DbInstancePort": 0,
+            "DBClusterIdentifier": "database-1",
+            "StorageEncrypted": true,
+            "KmsKeyId": "arn:aws:kms:ap-south-1:533267369374:key/d42a85e8-b22a-4fe5-a7d2-b0d1f2ad70d4",
+            "DbiResourceId": "db-FTNX2KW2NUQEWXJNY7WKCQ3DVA",
+            "CACertificateIdentifier": "rds-ca-rsa2048-g1",
+            "DomainMemberships": [],
+            "CopyTagsToSnapshot": false,
+            "MonitoringInterval": 60,
+            "EnhancedMonitoringResourceArn": "arn:aws:logs:ap-south-1:533267369374:log-group:RDSOSMetrics:log-stream:db-FTNX2KW2NUQEWXJNY7WKCQ3DVA",
+            "MonitoringRoleArn": "arn:aws:iam::533267369374:role/rds-monitoring-role",
+            "PromotionTier": 1,
+            "DBInstanceArn": "arn:aws:rds:ap-south-1:533267369374:db:database-1-instance-1-ap-south-1a",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "PerformanceInsightsEnabled": true,
+            "PerformanceInsightsKMSKeyId": "arn:aws:kms:ap-south-1:533267369374:key/d42a85e8-b22a-4fe5-a7d2-b0d1f2ad70d4",
+            "PerformanceInsightsRetentionPeriod": 7,
+            "DeletionProtection": false,
+            "AssociatedRoles": [],
+            "TagList": [
+                {
+                    "Key": "devops-guru-default",
+                    "Value": "database-1"
+                }
+            ],
+            "CustomerOwnedIpEnabled": false,
+            "BackupTarget": "region"
+        },
+        {
+            "DBInstanceIdentifier": "question5",
+            "DBInstanceClass": "db.r6g.large",
+            "Engine": "mysql",
+            "DBInstanceStatus": "available",
+            "MasterUsername": "admin",
+            "Endpoint": {
+                "Address": "question5.c7qy8wk8akwv.ap-south-1.rds.amazonaws.com",
+                "Port": 3306,
+                "HostedZoneId": "Z2VFMSZA74J7XZ"
+            },
+            "AllocatedStorage": 100,
+            "InstanceCreateTime": "2024-06-14T13:29:01.299Z",
+            "PreferredBackupWindow": "20:57-21:27",
+            "BackupRetentionPeriod": 7,
+            "DBSecurityGroups": [],
+            "VpcSecurityGroups": [
+                {
+                    "VpcSecurityGroupId": "sg-004cc44dc8acf0d8c",
+                    "Status": "active"
+                }
+            ],
+            "DBParameterGroups": [
+                {
+                    "DBParameterGroupName": "default.mysql8.0",
+                    "ParameterApplyStatus": "in-sync"
+                }
+            ],
+            "AvailabilityZone": "ap-south-1b",
+            "DBSubnetGroup": {
+                "DBSubnetGroupName": "default-vpc-06652a3453f25fcc4",
+                "DBSubnetGroupDescription": "Created from the RDS Management Console",
+                "VpcId": "vpc-06652a3453f25fcc4",
+                "SubnetGroupStatus": "Complete",
+                "Subnets": [
+                    {
+                        "SubnetIdentifier": "subnet-0046670045d553376",
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-south-1c"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-019910f0b1d816c4b",
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-south-1b"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    },
+                    {
+                        "SubnetIdentifier": "subnet-0eed83b5944b58b42",
+                        "SubnetAvailabilityZone": {
+                            "Name": "ap-south-1a"
+                        },
+                        "SubnetOutpost": {},
+                        "SubnetStatus": "Active"
+                    }
+                ]
+            },
+            "PreferredMaintenanceWindow": "mon:11:54-mon:12:24",
+            "PendingModifiedValues": {},
+            "LatestRestorableTime": "2024-06-23T05:15:00Z",
+            "MultiAZ": false,
+            "EngineVersion": "8.0.35",
+            "AutoMinorVersionUpgrade": true,
+            "ReadReplicaDBInstanceIdentifiers": [],
+            "LicenseModel": "general-public-license",
+            "OptionGroupMemberships": [
+                {
+                    "OptionGroupName": "default:mysql-8-0",
+                    "Status": "in-sync"
+                }
+            ],
+            "PubliclyAccessible": false,
+            "StorageType": "gp2",
+            "DbInstancePort": 0,
+            "StorageEncrypted": true,
+            "KmsKeyId": "arn:aws:kms:ap-south-1:533267369374:key/d42a85e8-b22a-4fe5-a7d2-b0d1f2ad70d4",
+            "DbiResourceId": "db-QJX6QN74KXEXVDYTMDTKU5ALFQ",
+            "CACertificateIdentifier": "rds-ca-rsa2048-g1",
+            "DomainMemberships": [],
+            "CopyTagsToSnapshot": true,
+            "MonitoringInterval": 60,
+            "EnhancedMonitoringResourceArn": "arn:aws:logs:ap-south-1:533267369374:log-group:RDSOSMetrics:log-stream:db-QJX6QN74KXEXVDYTMDTKU5ALFQ",
+            "MonitoringRoleArn": "arn:aws:iam::533267369374:role/rds-monitoring-role",
+            "DBInstanceArn": "arn:aws:rds:ap-south-1:533267369374:db:question5",
+            "IAMDatabaseAuthenticationEnabled": false,
+            "PerformanceInsightsEnabled": true,
+            "PerformanceInsightsKMSKeyId": "arn:aws:kms:ap-south-1:533267369374:key/d42a85e8-b22a-4fe5-a7d2-b0d1f2ad70d4",
+            "PerformanceInsightsRetentionPeriod": 7,
+            "DeletionProtection": false,
+            "AssociatedRoles": [],
+            "MaxAllocatedStorage": 1000,
+            "TagList": [
+                {
+                    "Key": "userid",
+                    "Value": "IIT@JAMMU"
+                },
+                {
+                    "Key": "password",
+                    "Value": "cyber@ctf"
+                }
+            ],
+            "CustomerOwnedIpEnabled": false,
+            "ActivityStreamStatus": "stopped",
+            "BackupTarget": "region"
+        }
+    ]
+}

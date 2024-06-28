@@ -1,0 +1,1 @@
+python3 ~/Downloads/volatility3-2.4.1/vol.py -f win10.raw windows.memmap  --dump --pid 5748
